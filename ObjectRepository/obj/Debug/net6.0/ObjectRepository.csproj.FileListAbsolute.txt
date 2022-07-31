@@ -1,0 +1,12 @@
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\bin\Debug\net6.0\ObjectRepository.deps.json
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\bin\Debug\net6.0\ObjectRepository.dll
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\bin\Debug\net6.0\ObjectRepository.pdb
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.csproj.AssemblyReference.cache
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.AssemblyInfoInputs.cache
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.AssemblyInfo.cs
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.csproj.CoreCompileInputs.cache
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.dll
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\refint\ObjectRepository.dll
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ObjectRepository.pdb
+C:\Thirumala\PersonalDocs\MMCodeChallengeBDD\ObjectRepository\obj\Debug\net6.0\ref\ObjectRepository.dll
