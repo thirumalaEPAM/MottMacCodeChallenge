@@ -48,13 +48,15 @@ Scenario: User can verify all the links in webpage
  
  - In Project solution 
      ###### 1. ObjectRepsitoryLibrary : 
-      which contains common utilities, locators (defined in page classfiles), SingletonBaseclass 
+      which contains common utilities, locators (defined in page classfiles : HomePageRepo and CareerPageRepo),Constants, SingletonBaseclass 
+       
        
     ###### 2. HelperLibrary : 
-     which contains the methods which are specific to the respective pages
+     which contains the methods which are specific to the respective pages (Pagehelper class)
+     we can call Pagehelper methods from Teststeps methods.
        
     ###### 4. BDDFramework(SpecFlow Project) 
-       Feature files
-       Stepdefination files
-       Hooks
+       Feature files : We can include all scenarios in Feature files
+       Stepdefination files : We can define all scenarios under stepdefination class file
+       MyHooks : We write code snippets that run before or after each scenario
 
