@@ -45,6 +45,7 @@ Scenario: User can verify all the links in webpage
 ```
  ## 03 - Brief Description about framework Approach
  - Reports created using ExtentReports and ScreenShots captured for failed scenarios
+ - Capured the Logs
  
  - In Project solution 
      ###### 1. ObjectRepsitoryLibrary : 
