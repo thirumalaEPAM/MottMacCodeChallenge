@@ -14,6 +14,10 @@ namespace HelperLibrary
         IWebDriver webdriver;
         CommonUtility Commonobj;
 
+        /// <summary>
+        /// Perform the Button click action using this method
+        /// </summary>
+        /// <param name="by"></param>
         public void ButtonClick(By by)
         {
             Commonobj.ClickElement(by);
@@ -22,11 +26,23 @@ namespace HelperLibrary
         {
             System.Threading.Thread.Sleep(5000);
         }
+
+        /// <summary>
+        /// Send the text to webelement
+        /// </summary>
+        /// <param name="by"></param>
+        /// <param name="text"></param>
         public void SendText(By by, string text)
         {
 
             Commonobj.SendText(by, text);
         }
+
+        /// <summary>
+        /// Get the Webelement text by using this method
+        /// </summary>
+        /// <param name="by"></param>
+        /// <returns></returns>
 
         public string GetText(By by)
         {
@@ -34,6 +50,12 @@ namespace HelperLibrary
             catch { return "NotMatch"; }
 
         }
+
+        /// <summary>
+        /// Get the Hidden text using this method
+        /// </summary>
+        /// <param name="by"></param>
+        /// <returns></returns>
         public string GetHiddentext(By by)
         {
             
@@ -43,6 +65,11 @@ namespace HelperLibrary
             return hiddenText.ToString();
         }
 
+        /// <summary>
+        /// Get All the links on the Webpage
+        /// </summary>
+        /// <param name="by"></param>
+        /// <returns></returns>
         public List<string> getAllLinks(By by)
         {
             IList<IWebElement> links = webdriver.FindElements(By.TagName("a"));
@@ -76,6 +103,10 @@ namespace HelperLibrary
                 }
             }
         }
+        /// <summary>
+        /// Validate the All the Links on WebPage
+        /// </summary>
+        /// <param name="links"></param>
         public void ValidateAllLinksonWebpage(List<string> links)
         {
             foreach (var link in links)
@@ -83,6 +114,11 @@ namespace HelperLibrary
                 var _result = VerifyValidLinkAsync(link);
             }
         }
+        /// <summary>
+        /// Given Link is Valide or not it returns boolean
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
         public async Task<bool> VerifyValidLinkAsync(string url)
         {            
             HttpClient client = new HttpClient();
@@ -108,6 +144,11 @@ namespace HelperLibrary
                 return false;
             }
         }
+        /// <summary>
+        /// The Method returns the boolean , based on search results count
+        /// </summary>
+        /// <param name="by"></param>
+        /// <returns></returns>
         public bool CheckSearchResults(By by)
         {
             bool flag = false;
