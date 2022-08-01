@@ -20,8 +20,8 @@
 ###### Browsers
    - Chrome Driver
 ## 02 - Test Scenarios
--Scenario 1 : Verify user can search required job under career search
--Scenario 2 : User can verify all the links in webpage
+- Scenario 1 : Verify user can search required job under career search
+- Scenario 2 : User can verify all the links in webpage
 
 ###### Feature file
 ```
