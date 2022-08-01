@@ -34,7 +34,7 @@ namespace MMCodeChallengeBDD
         public static void InitializeReport()
         {
             string path1 = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\net6.0\\", "");
-            string path = path1 + "\\ExtentReports.html";
+            string path = path1 + "\\Reports\\ExtentReports"+ System.DateTime.Today.ToString("MM-dd-yyyy") + "." + "html";
             var htmlreporter = new ExtentHtmlReporter(path);
             htmlreporter.Config.Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
             extent = new AventStack.ExtentReports.ExtentReports();

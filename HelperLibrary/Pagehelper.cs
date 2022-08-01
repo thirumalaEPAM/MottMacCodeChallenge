@@ -20,7 +20,14 @@ namespace HelperLibrary
         /// <param name="by"></param>
         public void ButtonClick(By by)
         {
-            Commonobj.ClickElement(by);
+            try
+            {
+                Commonobj.ClickElement(by);
+            }
+            catch (StaleElementReferenceException ex) 
+            { 
+                Commonobj.ClickElement(by);
+            }
         }
         public void waitforpageLoad()
         {
